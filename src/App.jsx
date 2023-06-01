@@ -1,7 +1,12 @@
 import "./App.css";
+import Mensaje from "./components/Mensaje";
 
 function App() {
-  return <div></div>;
+  return (
+    <>
+      <Mensaje nuevoMensaje="My Friend !"></Mensaje>
+    </>
+  );
 }
 
 export default App;
