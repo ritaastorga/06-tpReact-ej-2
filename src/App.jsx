@@ -1,10 +1,11 @@
 import "./App.css";
+import Mensaje from "./components/Mensaje";
 
 function App() {
   return (
-    <div>
-      <h1>Hola Mundo React !</h1>
-    </div>
+    <>
+      <Mensaje nuevoMensaje="My Friend !"></Mensaje>
+    </>
   );
 }
 
